@@ -1,0 +1,44 @@
+.cabecalho {
+    background-color: #d63384; /* Rosa vibrante para destacar */
+    padding: 2em;
+    text-align: center;
+    font-size: 2em; /* Maior destaque para o cabeçalho */
+    font-weight: bold;
+    color: #fff; /* Branco para contraste */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.imagem {
+    width: 120px;
+}
+
+.titulo {
+    font-size: 2em;
+    font-weight: bold;
+    color: #b5179e; /* Rosa intenso para um visual sofisticado */
+    text-transform: uppercase;
+}
+
+.frase {
+    font-size: 1.2em;
+    color: #6a0572; /* Roxo escuro para um toque elegante */
+    font-style: italic;
+}
+
+/* Estilos para telas maiores */
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .titulo, .frase {
+        display: block;
+    }
+}
