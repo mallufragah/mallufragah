@@ -1,0 +1,60 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8e1e7; /* Tom rosado suave para um toque feminino e elegante */
+    color: #5a5a5a; /* Cinza escuro para contraste suave */
+}
+
+/* Cabeçalho */
+.cabecalho {
+    background-color: #d63384; /* Rosa vibrante para impacto visual */
+    padding: 30px;
+    text-align: center;
+    font-size: 2em; /* Tamanho maior para destaque */
+    font-weight: bold;
+    color: #fff; /* Branco para contraste */
+}
+
+/* Container principal */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    text-align: center;
+}
+
+/* Imagem */
+.imagem {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+/* Título */
+.titulo {
+    font-size: 2em;
+    font-weight: bold;
+    color: #b5179e; /* Rosa intenso para um toque sofisticado */
+    text-transform: uppercase;
+}
+
+/* Frase */
+.frase {
+    font-size: 1.2em;
+    font-style: italic;
+    color: #6a0572; /* Roxo escuro para elegância */
+    margin-top: 10px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .titulo {
+        font-size: 1.5em;
+    }
+    .frase {
+        font-size: 1em;
+    }
+}
